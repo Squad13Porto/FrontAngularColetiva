@@ -1,0 +1,36 @@
+main {
+    background-color: #000000;
+  }
+  
+  .img-main {
+    width: 100vw;
+    height: 120vh;
+    opacity: 0.65;
+  }
+  
+  .container {
+    position: relative;
+    letter-spacing: 4px;
+  }
+  
+  #coletiva {
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  #arquitetura {
+    color: #CD001A;
+    font-weight: 700;
+  }
+  
+  .text-block {
+    text-shadow: 2px 2px 4px black;
+    padding: 30px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    top: 200px;
+    left: 200px;
+  }
