@@ -1,8 +1,8 @@
-<header>
+<header [ngClass]="{'scrolled': isScrolled}">
   <nav>
     <ul>
       <li>
-        <img src="../../../assets/images/LOGOTIPO_HORIZONTAL_BRANCO.png" alt="" width="25%" height="25%">
+        <img [src]="logoSrc" alt="" width="25%" height="25%">
       </li>
       <li>
         <app-button class="button"></app-button>
