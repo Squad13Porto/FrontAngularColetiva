@@ -1,28 +1,29 @@
 main {
     background-color: #000000;
   }
-  
+
   .img-main {
-    width: 100vw;
-    height: 120vh;
+    max-width: 100%;
+    height: auto;
     opacity: 0.65;
+    background-position: center center;
   }
-  
+
   .container {
     position: relative;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
   }
-  
+
   #coletiva {
     text-transform: uppercase;
     font-weight: 700;
   }
-  
+
   #arquitetura {
     color: #CD001A;
     font-weight: 700;
   }
-  
+
   .text-block {
     text-shadow: 2px 2px 4px black;
     padding: 30px;
@@ -31,6 +32,6 @@ main {
     position: absolute;
     font-size: 50px;
     color: white;
-    top: 200px;
+    top: 300px;
     left: 200px;
   }
