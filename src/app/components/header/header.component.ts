@@ -8,7 +8,7 @@ import { Component, HostListener } from '@angular/core';
 export class HeaderComponent {
   isScrolled = false;
   logoSrc = '../../../assets/images/LOGOTIPO_HORIZONTAL_BRANCO.png';
-  scrolledLogoSrc = '../../../assets/images/LOGOTIPO_HORIZONTAL_PRETO.png'
+  scrolledLogoSrc = '../../../assets/images/LOGOTIPO_HORIZONTAL.png'
 
   @HostListener('window:scroll', [])
   onWindowScroll() {
