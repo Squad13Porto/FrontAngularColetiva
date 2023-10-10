@@ -1,0 +1,22 @@
+.escola {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.escola > h3 {
+    text-align: center;
+    padding: 75px;
+    font-size: 48px;
+    color: #C40019;
+    font-family: 'DM Sans';
+}
+
+.escola > p.texto {
+    font-family: 'DM Sans';
+    font-size: 32px;
+    width: 50%;
+    padding-bottom: 75px;
+}
