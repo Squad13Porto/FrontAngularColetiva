@@ -1,37 +1,37 @@
 main {
-    background-color: #000000;
-  }
+  background-color: #000;
+}
 
-  .img-main {
-    max-width: 100%;
-    height: auto;
-    opacity: 0.65;
-    background-position: center center;
-  }
+.img-main {
+  max-width: 100%;
+  height: auto;
+  opacity: 0.65;
+  background-position: center center;
+}
 
-  .container {
-    position: relative;
-    letter-spacing: 3px;
-  }
+.container {
+  position: relative;
+  letter-spacing: 3px;
+}
 
-  #coletiva {
-    text-transform: uppercase;
-    font-weight: 700;
-  }
+#coletiva {
+  text-transform: uppercase;
+  font-weight: 700;
+}
 
-  #arquitetura {
-    color: #CD001A;
-    font-weight: 700;
-  }
+#arquitetura {
+  color: #CD001A;
+  font-weight: 700;
+}
 
-  .text-block {
-    text-shadow: 2px 2px 4px black;
-    padding: 30px;
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 400;
-    position: absolute;
-    font-size: 50px;
-    color: white;
-    top: 300px;
-    left: 200px;
-  }
+.text-block {
+  text-shadow: 2px 2px 4px black;
+  padding: 30px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  position: absolute;
+  font-size: 50px;
+  color: white;
+  top: 300px;
+  left: 200px;
+}
