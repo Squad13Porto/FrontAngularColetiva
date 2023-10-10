@@ -1,0 +1,33 @@
+.cursos {
+    background-color: #303030;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'DM Sans';
+}
+
+.cursos > h3.titulo-cursos {
+    color: #CD001A;
+    padding: 75px;
+    font-size: 54px
+}
+
+.cursos > p.texto-cursos {
+    width: 50%;
+    font-size: 24px;
+    padding-bottom: 75px;
+    color: #FFFFFF;
+}
+
+.cursos > p.texto-cursos > span {
+    font-weight: 700;
+    color: #CD001A;
+}
+
+.cursos > img.imagem-carrossel {
+    padding-bottom: 75px;
+    width: 60%;
+    height: auto;
+}
