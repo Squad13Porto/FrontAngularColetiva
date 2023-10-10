@@ -17,10 +17,11 @@
   font-family: 'DM Sans', sans-serif;
   font-weight: 700;
   margin-top: 15px;
+  transition: 1s ease;
 }
 
 .button:hover {
-  transition: 1s #444;
+  background-color: #C40019;
 }
 
 @media (min-width: 768px) {
