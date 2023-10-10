@@ -2,15 +2,14 @@
   background-color: #000;
   border-radius: .5rem;
   box-sizing: border-box;
+  border: 1px solid transparent;
   color: #ffffff;
   display: flex;
   font-size: 16px;
-  justify-content: center;
   margin-bottom: 1rem;
   text-decoration: none;
   width: 100%;
   max-width: 250px;
-  border: 0;
   cursor: pointer;
   user-select: none;
   white-space: nowrap;
@@ -21,7 +20,8 @@
 }
 
 .button:hover {
-  background-color: #C40019;
+  background-color: #CD0019;
+  border: 1px solid #d0d0d0;
 }
 
 @media (min-width: 768px) {

@@ -1,5 +1,7 @@
 main {
   background-color: #000;
+  background-size: cover;
+  overflow: hidden;
 }
 
 .img-main {
