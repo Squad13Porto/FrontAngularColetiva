@@ -1,0 +1,59 @@
+.aulas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    margin: 32px auto;
+    padding: 20px;    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+
+    width: 80%;
+    padding: 20px;
+
+    margin: 32px 0;
+}
+
+.container .text h3 {
+    color: var(--red);
+    font-size: 48px;
+}
+
+.container .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 24px
+}
+
+
+
+.container .text span {
+    color: var(--red);
+    font-weight: 700;
+}
+
+
+
+.container .text p {
+    color: black;
+    font-size: 24px;
+
+letter-spacing: 2px;
+}
+
+.container .text a {
+    color: var(--red);
+    font-size: 20px;
+}

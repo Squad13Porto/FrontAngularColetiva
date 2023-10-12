@@ -9,7 +9,7 @@
 }
 
 .cursos > h3.titulo-cursos {
-    color: #CD001A;
+    color: var(--red);
     padding: 75px;
     font-size: 54px
 }
@@ -23,7 +23,7 @@
 
 .cursos > p.texto-cursos > span {
     font-weight: 700;
-    color: #CD001A;
+    color: var(--red);
 }
 
 .cursos > img.imagem-carrossel {

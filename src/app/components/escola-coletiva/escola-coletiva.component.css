@@ -2,21 +2,48 @@
     text-align: center;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
+
+    margin: 95px 0;
 }
 
-.escola > h3 {
-    text-align: center;
-    padding: 75px;
-    font-size: 48px;
-    color: #C40019;
+.escola .etiqueta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    
+    padding: 50px;
+    width: 25%;
+    height: 10px;
+
+    border-radius: 0 20px 20px 0;
+
+    background-color: var(--red);
+
+}
+
+.escola .etiqueta h3 {
+    text-align: left;
+    font-size: 32px;
+    color: white;
     font-family: 'DM Sans';
+
 }
 
-.escola > p.texto {
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+    margin: 0 auto;
+}
+
+.description > p.texto {
+    text-align: center;
     font-family: 'DM Sans';
     font-size: 32px;
-    width: 50%;
     padding-bottom: 75px;
 }
