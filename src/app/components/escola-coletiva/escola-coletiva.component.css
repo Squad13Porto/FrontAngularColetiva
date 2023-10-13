@@ -5,7 +5,7 @@
     align-items: flex-start;
     flex-direction: column;
 
-    margin: 95px 0;
+    margin: 50px 0;
 }
 
 .escola .etiqueta {
@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: center;
     gap: 32px;
-    
+
     padding: 50px;
     width: 25%;
     height: 10px;
@@ -46,4 +46,16 @@
     font-family: 'DM Sans';
     font-size: 32px;
     padding-bottom: 75px;
+}
+
+@media screen and (max-width: 768px) {
+  .escola .etiqueta {
+    width: 50%;
+    padding: 3rem;
+  }
+
+  .description > p.texto {
+    font-size: 2rem;
+    padding-bottom: 60px;
+  }
 }
