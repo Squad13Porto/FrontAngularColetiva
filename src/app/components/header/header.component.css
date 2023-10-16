@@ -13,7 +13,7 @@ header.scrolled {
 }
 
 .logo {
-  margin-left: 60px;
+  padding-left: 2.5rem;
   width: 25%;
   height: auto;
 }
@@ -37,9 +37,12 @@ nav a {
 }
 
 @media screen and (max-width: 768px) {
+  header {
+    width: 100vw;
+  }
+
   .logo {
-    width: 55%;
-    min-width: 40%;
+    width: 75%;
     height: auto;
   }
 }
