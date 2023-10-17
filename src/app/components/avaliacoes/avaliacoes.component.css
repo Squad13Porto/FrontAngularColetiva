@@ -26,3 +26,20 @@ span#coletiva {
     align-items: center;
     justify-content: space-around;
 }
+
+@media screen and (max-width: 768px) {
+    .avaliacoes {
+        padding: 0;
+    }
+
+    h3.titulo-avaliacoes {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+}
