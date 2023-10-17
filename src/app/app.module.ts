@@ -11,9 +11,23 @@ import { CursosComponent } from './components/cursos/cursos.component';
 import { AulasComponent } from './components/aulas/aulas.component';
 import { CardCollaboratorComponent } from './components/card-collaborator/card-collaborator.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
+import { CardUserComponent } from './components/card-user/card-user.component';
+import { AvaliacoesComponent } from './components/avaliacoes/avaliacoes.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, ButtonComponent, MainPageComponent, EscolaColetivaComponent, CursosComponent, AulasComponent, CardCollaboratorComponent, AboutUsComponent],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    ButtonComponent,
+    MainPageComponent,
+    EscolaColetivaComponent,
+    CursosComponent,
+    AulasComponent,
+    CardCollaboratorComponent,
+    AboutUsComponent,
+    CardUserComponent,
+    AvaliacoesComponent
+  ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],

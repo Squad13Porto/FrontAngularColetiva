@@ -1,0 +1,28 @@
+.avaliacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 0 4rem 0;
+}
+
+h3.titulo-avaliacoes {
+    font-size: 54px;
+    padding-bottom: 3rem;
+    font-weight: 400;
+}
+
+span#coletiva {
+    color: #CD001A;
+    text-shadow: #2b2b2b 2px 2px 0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}

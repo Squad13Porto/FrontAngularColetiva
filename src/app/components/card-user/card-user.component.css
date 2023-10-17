@@ -1,15 +1,17 @@
 section.cards-section {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    width: 100%;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .card {
     background-color: #2b2b2b;
     border-radius: 20px;
     width: 28rem;
-    margin: 0 3rem 3rem 3rem;
+    margin: 0 2rem;
 }
 
 .card-info {
@@ -18,6 +20,7 @@ section.cards-section {
     border-radius: 20px 20px 0 0;
     background-color: #ADADAD;
     width: 100%;
+    overflow: hidden;
 }
 
 .info-usuario {
