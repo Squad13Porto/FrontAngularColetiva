@@ -1,0 +1,40 @@
+section.cards-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.card {
+    background-color: #2b2b2b;
+    border-radius: 20px;
+    width: 28rem;
+    margin: 0 3rem 3rem 3rem;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px 20px 0 0;
+    background-color: #ADADAD;
+    width: 100%;
+}
+
+.info-usuario {
+    flex-direction: column;
+    color: #2b2b2b;
+    padding: 20px;
+}
+
+img.foto-usuario {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+}
+
+.card-text {
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
