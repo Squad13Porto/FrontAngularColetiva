@@ -6,31 +6,13 @@
     flex-direction: column;
 
     margin: 50px 0;
-}
 
-.escola .etiqueta {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 32px;
-
-    padding: 50px;
-    width: 25%;
-    height: 10px;
-
-    border-radius: 0 20px 20px 0;
-
-    background-color: var(--red);
 
 }
 
-.escola .etiqueta h3 {
-    text-align: left;
-    font-size: 32px;
-    color: white;
-    font-family: 'DM Sans';
-
-}
+.tag {
+  width: 100vw;
+}  
 
 .description {
     display: flex;
@@ -49,11 +31,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .escola .etiqueta {
-    width: 50%;
-    padding: 3rem;
-  }
-
   .description > p.texto {
     font-size: 2rem;
     padding-bottom: 60px;

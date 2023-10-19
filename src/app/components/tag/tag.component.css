@@ -1,0 +1,32 @@
+.tag {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 3rem;
+    
+    width: 25%;
+    height: 1rem;
+
+    border-radius: 0 20px 20px 0;
+
+    background-color: var(--red);
+}
+
+.tag h3 {
+    text-align: left;
+    font-size: 32px;
+    color: white;
+    font-family: 'DM Sans';
+    text-transform: uppercase;
+
+}
+
+@media screen and (max-width: 768px) {
+    .tag {
+      margin-right: 1rem;
+      width: auto;
+      padding: 3rem;
+      gap: 2rem;
+    }
+} 

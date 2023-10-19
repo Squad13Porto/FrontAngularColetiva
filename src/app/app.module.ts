@@ -13,6 +13,8 @@ import { CardCollaboratorComponent } from './components/card-collaborator/card-c
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { CardUserComponent } from './components/card-user/card-user.component';
 import { AvaliacoesComponent } from './components/avaliacoes/avaliacoes.component';
+import { TagComponent } from './components/tag/tag.component';
+import { CommunityComponent } from './components/community/community.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { AvaliacoesComponent } from './components/avaliacoes/avaliacoes.componen
     CardCollaboratorComponent,
     AboutUsComponent,
     CardUserComponent,
-    AvaliacoesComponent
+    AvaliacoesComponent,
+    TagComponent,
+    CommunityComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
