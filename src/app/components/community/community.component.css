@@ -1,4 +1,3 @@
-
 .bg {
     background: url(../../../assets/images/comunidade/Vector.svg) no-repeat;
     background-position: left top;
@@ -34,7 +33,7 @@
 
 .content .main .text {
     width: 50%;
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 .text {
@@ -56,6 +55,7 @@
     
     .content {
     padding-top: 0.5rem;
+    gap: 4rem;
     }
 
     .content .main {

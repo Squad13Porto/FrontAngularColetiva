@@ -16,6 +16,7 @@ import { AvaliacoesComponent } from './components/avaliacoes/avaliacoes.componen
 import { TagComponent } from './components/tag/tag.component';
 import { CommunityComponent } from './components/community/community.component';
 import { ForumComponent } from './components/forum/forum.component';
+import { MentoriaComponent } from './components/mentoria/mentoria.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ForumComponent } from './components/forum/forum.component';
     AvaliacoesComponent,
     TagComponent,
     CommunityComponent,
-    ForumComponent
+    ForumComponent,
+    MentoriaComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
