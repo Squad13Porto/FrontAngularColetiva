@@ -17,6 +17,7 @@ import { TagComponent } from './components/tag/tag.component';
 import { CommunityComponent } from './components/community/community.component';
 import { ForumComponent } from './components/forum/forum.component';
 import { MentoriaComponent } from './components/mentoria/mentoria.component';
+import { SocialMidiaComponent } from './components/social-midia/social-midia.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { MentoriaComponent } from './components/mentoria/mentoria.component';
     TagComponent,
     CommunityComponent,
     ForumComponent,
-    MentoriaComponent
+    MentoriaComponent,
+    SocialMidiaComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
