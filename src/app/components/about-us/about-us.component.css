@@ -35,7 +35,7 @@
     text-align: justify;
     font-size: 18px;
     font-weight: 400;
-    line-height: 130%;   
+    line-height: 130%;
 }
 
 .about-us .cards {
@@ -50,7 +50,7 @@
 
 @media screen and (max-width: 768px) {
     .about-us .text p {
-        text-align: center;
+        text-align: left;
            
     }
     

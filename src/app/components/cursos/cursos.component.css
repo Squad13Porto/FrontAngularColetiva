@@ -31,3 +31,11 @@
     width: 60%;
     height: auto;
 }
+
+@media screen and (max-width: 768px) {
+    .cursos > p.texto-cursos {
+        width: 80%;
+        font-size: 1.3rem;
+        text-align: left;    
+    }
+}

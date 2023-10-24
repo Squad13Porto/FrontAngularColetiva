@@ -1,8 +1,9 @@
 
 .bg {
-    background: url(../../../assets/images/comunidade/Vector.svg) no-repeat;
-    background-position: left top;
-    background-size: 60%;
+    background: url(../../../assets/images/forum/Vector-white.svg) no-repeat;
+    background-color: var(--red);
+    background-position: left bottom;
+    background-size: 50%;
 }
 
 .content {
@@ -16,16 +17,12 @@
     width: 100vw;
 
     margin: 1rem 0 4rem 0;
-    padding-top: 6rem;
-}
-
-.tag {
-    width: 100vw;
+    padding: 6rem 0;
 }
 
 .content .main {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
     gap: 2rem;
 
@@ -34,49 +31,47 @@
 
 .content .main .text {
     width: 50%;
-    font-size: 32px;
+    font-size: 2rem;
 }
+
+.content .main .text a {
+    font-size: 1.5rem;
+    color: #FFF;
+}
+
 
 .text {
-    color: #000;
-    text-align: center;
-    font-size: 1.5rem;
+    color: #FFF;
+    text-align: left;
+    font-size: 24px;
     font-weight: 400;
     line-height: 130%;
-}
 
-.footer {
-    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    gap: 3rem;
 }
 
 @media screen and (max-width: 768px) {
-    .bg {
-        background: transparent;
-    }
+     .bg {
+        background-image: none;
+    } 
     
-    .content {
-    padding-top: 0.5rem;
-    }
-
     .content .main {
         flex-direction: column;
     }
     
     .content .main .text {
         width: 100%;
-        font-size: 1.5rem;
+        font-size: 24px;
         letter-spacing: normal;
-        text-align: left;
     }
 
     .content .main .img-screen img {
         width: 100%;
     }
     
-    .footer .text {
-        font-size: 1.5rem;
-        letter-spacing: normal;
-        text-align: left;
-    }
-
 }

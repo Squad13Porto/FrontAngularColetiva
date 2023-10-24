@@ -15,6 +15,7 @@ import { CardUserComponent } from './components/card-user/card-user.component';
 import { AvaliacoesComponent } from './components/avaliacoes/avaliacoes.component';
 import { TagComponent } from './components/tag/tag.component';
 import { CommunityComponent } from './components/community/community.component';
+import { ForumComponent } from './components/forum/forum.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { CommunityComponent } from './components/community/community.component';
     CardUserComponent,
     AvaliacoesComponent,
     TagComponent,
-    CommunityComponent
+    CommunityComponent,
+    ForumComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
