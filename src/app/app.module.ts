@@ -18,6 +18,7 @@ import { CommunityComponent } from './components/community/community.component';
 import { ForumComponent } from './components/forum/forum.component';
 import { MentoriaComponent } from './components/mentoria/mentoria.component';
 import { SocialMidiaComponent } from './components/social-midia/social-midia.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { SocialMidiaComponent } from './components/social-midia/social-midia.com
     CommunityComponent,
     ForumComponent,
     MentoriaComponent,
-    SocialMidiaComponent
+    SocialMidiaComponent,
+    FooterComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
