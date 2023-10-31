@@ -1,4 +1,4 @@
-.container {
+/* .container {
     background-color: var(--red);
     color: #FFF;
 
@@ -61,4 +61,104 @@
     align-items: center;
     justify-content: center;
     gap: 1rem;
+} */
+
+
+.bg {
+    background-color: var(--red);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0 1rem 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 4rem;
+    
+    width: 50%;
+
+    color: #FFF;
+}
+
+.content .header {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.content .header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.content .header p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.content .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
+    width: 100%;
+
+    border-radius: 20px;
+    background: #EDEDED;
+    box-shadow: 3px -2px 6px 0px rgba(0, 0, 0, 0.25);
+}
+
+.content .main .video {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .main .video iframe {
+    width: 80%;
+    height: 45vh;
+
+    border-radius: 15px;
+}
+
+.content .logo-coletiva {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .logo-coletiva img {
+    width: 70%;
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        width: 80%;
+    }
+
+    .content .header {
+        text-align: left;
+    }
+
+    .content .main .video iframe {
+        width: 90%;
+        height: 20vh;
+    
+        border-radius: 15px;
+    }
 }
