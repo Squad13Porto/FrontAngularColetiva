@@ -18,7 +18,7 @@
     padding: 1.5rem;
     width: 80%;
 
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400;
     text-align: center;
 }
@@ -41,7 +41,6 @@
 
 @media screen and (max-width: 768px) {
     .container .header {    
-        font-size: 1.5rem;
         text-align: left;
     }
 

@@ -11,12 +11,12 @@
 .cursos > h3.titulo-cursos {
     color: var(--red);
     padding: 75px;
-    font-size: 54px
+    font-size: 3rem;
 }
 
 .cursos > p.texto-cursos {
     width: 50%;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding-bottom: 75px;
     color: #FFFFFF;
 }
@@ -35,7 +35,6 @@
 @media screen and (max-width: 768px) {
     .cursos > p.texto-cursos {
         width: 80%;
-        font-size: 1.3rem;
         text-align: left;    
     }
 }

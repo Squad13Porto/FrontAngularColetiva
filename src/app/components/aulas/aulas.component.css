@@ -20,12 +20,12 @@
     width: 80%;
     padding: 20px;
 
-    margin: 32px 0;
+    margin: 2rem 0;
 }
 
 .container .text h3 {
     color: var(--red);
-    font-size: 48px;
+    font-size: 3rem;
 }
 
 .container .text {
@@ -34,7 +34,7 @@
     justify-content: center;
     align-items: flex-start;
 
-    gap: 24px
+    gap: 1.5rem;
 }
 
 .container .text span {
@@ -44,8 +44,7 @@
 
 .container .text p {
   color: black;
-  font-size: 24px;
-  letter-spacing: 2px;
+  font-size: 1.5rem;
 }
 
 .container .text a {
@@ -78,6 +77,5 @@
   .container .text p {
     color: black;
     font-size: 24px;
-    letter-spacing: normal;
 }
 }
