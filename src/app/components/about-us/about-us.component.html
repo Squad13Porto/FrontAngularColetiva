@@ -11,37 +11,8 @@
   </div>
 
   <div class="cards">
-    <app-card-collaborator
-      [description]="
-        'Arquiteta e urbanista (Universidade Tiradentes, 2021). Desenvolvem as mídias sociais, programas dos cursos e curadoria de conteúdo da COLETIVA.'
-      "
-      [collaboratorName]="'Vitória Santos Almeida'"
-    ></app-card-collaborator>
-
-    <app-card-collaborator
-      [description]="
-        'Arquiteta e urbanista (Universidade Tiradentes, 2021). Desenvolvem as mídias sociais, programas dos cursos e curadoria de conteúdo da COLETIVA.'
-      "
-      [collaboratorName]="'Vitória Santos Almeida'"
-    ></app-card-collaborator>
-
-    <app-card-collaborator
-      [description]="
-        'Arquiteta e urbanista (Universidade Tiradentes, 2021). Desenvolvem as mídias sociais, programas dos cursos e curadoria de conteúdo da COLETIVA.'
-      "
-      [collaboratorName]="'Vitória Santos Almeida'"
-    ></app-card-collaborator>
-    <app-card-collaborator
-      [description]="
-        'Arquiteta e urbanista (Universidade Tiradentes, 2021). Desenvolvem as mídias sociais, programas dos cursos e curadoria de conteúdo da COLETIVA.'
-      "
-      [collaboratorName]="'Vitória Santos Almeida'"
-    ></app-card-collaborator>
-    <app-card-collaborator
-      [description]="
-        'Arquiteta e urbanista (Universidade Tiradentes, 2021). Desenvolvem as mídias sociais, programas dos cursos e curadoria de conteúdo da COLETIVA.'
-      "
-      [collaboratorName]="'Vitória Santos Almeida'"
-    ></app-card-collaborator>
+    <div *ngFor="let card of cards">
+      <app-card-collaborator [collaboratorName]="card.nome" [description]="card.titulacao" [src]="card.imagem"></app-card-collaborator>
+    </div>
   </div>
 </div>

@@ -19,6 +19,7 @@ import { ForumComponent } from './components/forum/forum.component';
 import { MentoriaComponent } from './components/mentoria/mentoria.component';
 import { SocialMidiaComponent } from './components/social-midia/social-midia.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -40,7 +41,7 @@ import { FooterComponent } from './components/footer/footer.component';
     SocialMidiaComponent,
     FooterComponent
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })

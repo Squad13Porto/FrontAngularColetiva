@@ -8,4 +8,5 @@ import { Component, Input } from '@angular/core';
 export class CardCollaboratorComponent {
   @Input('collaboratorName') collaboratorName!: string;  
   @Input('description') description!: string;
+  @Input('src') src!: string;
 }
