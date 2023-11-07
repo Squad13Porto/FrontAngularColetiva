@@ -19,8 +19,6 @@ import { ForumComponent } from './components/forum/forum.component';
 import { MentoriaComponent } from './components/mentoria/mentoria.component';
 import { SocialMidiaComponent } from './components/social-midia/social-midia.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
-import { getFirestore, provideFirestore } from '@angular/fire/firestore';
 
 @NgModule({
   declarations: [
@@ -40,25 +38,9 @@ import { getFirestore, provideFirestore } from '@angular/fire/firestore';
     ForumComponent,
     MentoriaComponent,
     SocialMidiaComponent,
-    FooterComponent,
+    FooterComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    provideFirebaseApp(() =>
-      initializeApp({
-        projectId: 'squad13-7ae1e',
-        appId: '1:47491240685:web:c1af953387f6f51ec432e4',
-        storageBucket: 'squad13-7ae1e.appspot.com',
-        locationId: 'southamerica-east1',
-        apiKey: 'AIzaSyAwRZlaqSIgCTvyjfdf7aDaSZJBFiKJNzA',
-        authDomain: 'squad13-7ae1e.firebaseapp.com',
-        messagingSenderId: '47491240685',
-        measurementId: 'G-L2TCT9J5R3',
-      })
-    ),
-    provideFirestore(() => getFirestore()),
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
 })
