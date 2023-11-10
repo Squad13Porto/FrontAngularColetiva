@@ -16,7 +16,6 @@ export class AboutUsComponent {
     this.http.get("http://177.153.50.192:5001/squad13-7ae1e/us-central1/getFirestoreDocs")
       .subscribe((response: any) => {
         this.cards = response.cardsEquipe;
-        console.log(this.cards)
       });
   }
 

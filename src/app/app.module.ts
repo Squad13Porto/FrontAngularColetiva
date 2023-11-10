@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+import { SlickCarouselModule } from 'ngx-slick-carousel';
+
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ButtonComponent } from './components/button/button.component';
@@ -19,7 +22,7 @@ import { ForumComponent } from './components/forum/forum.component';
 import { MentoriaComponent } from './components/mentoria/mentoria.component';
 import { SocialMidiaComponent } from './components/social-midia/social-midia.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { HttpClientModule } from '@angular/common/http'
+import { SlideAulasComponent } from './components/slide-aulas/slide-aulas.component'
 
 @NgModule({
   declarations: [
@@ -39,9 +42,10 @@ import { HttpClientModule } from '@angular/common/http'
     ForumComponent,
     MentoriaComponent,
     SocialMidiaComponent,
-    FooterComponent
+    FooterComponent,
+    
   ],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
+  imports: [BrowserModule, BrowserAnimationsModule, AppRoutingModule, HttpClientModule, SlickCarouselModule, SlideAulasComponent],
   providers: [],
   bootstrap: [AppComponent],
 })
