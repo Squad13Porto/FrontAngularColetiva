@@ -1,0 +1,75 @@
+.section-beneficios {
+    background-color: #3C5A87;
+    padding: 3rem;
+}
+
+.beneficios-content {
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  color: white;
+}
+
+.cards {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 32px;
+    color: #FFF;
+}
+
+.cards p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    width: 80%;
+}
+
+.card-beneficio {
+    width: 100%;
+    width: 21.9125rem;
+    height: auto;
+    height: 10.625rem;
+    border-radius: 0.9375rem;
+    background: #2B2B2B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+button.inscrevase {
+    border-radius: 0.625rem;
+    background: #000;
+    padding: 2.25rem 2.85rem;
+    color: white;
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+button.inscrevase:hover {
+    box-shadow: 0px 5px 10px rgb(34, 34, 34);
+    transform: translate(-5px, -5px);
+    /* Move o botão 5px para cima e para a esquerda */
+}
+
+@media screen and (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+    }
+}

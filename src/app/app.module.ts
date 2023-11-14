@@ -25,7 +25,10 @@ import { FooterComponent } from './components/ladingPage/footer/footer.component
 import { SlideAulasComponent } from './components/slide-aulas/slide-aulas.component';
 import { CarrosselPrincipalComponent } from './components/ladingPage/carrossel-principal/carrossel-principal.component';
 import { CursoComponent } from './components/pagCursos/curso/curso.component';
-import { HomeComponent } from './components/ladingPage/home/home.component'
+import { HomeComponent } from './components/ladingPage/home/home.component';
+import { AvaliacaoCursosComponent } from './components/pagCursos/avaliacao-cursos/avaliacao-cursos.component';
+import { PromessaComponent } from './components/pagCursos/promessa/promessa.component';
+import { BeneficiosComponent } from './components/pagCursos/beneficios/beneficios.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +51,9 @@ import { HomeComponent } from './components/ladingPage/home/home.component'
     FooterComponent,
     CursoComponent,
     HomeComponent,
+    AvaliacaoCursosComponent,
+    PromessaComponent,
+    BeneficiosComponent,
   ],
   imports: [
             BrowserModule, BrowserAnimationsModule,
