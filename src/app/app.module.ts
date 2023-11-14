@@ -6,23 +6,26 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './components/header/header.component';
-import { ButtonComponent } from './components/button/button.component';
-import { MainPageComponent } from './components/main-page/main-page.component';
-import { EscolaColetivaComponent } from './components/escola-coletiva/escola-coletiva.component';
-import { CursosComponent } from './components/cursos/cursos.component';
-import { AulasComponent } from './components/aulas/aulas.component';
-import { CardCollaboratorComponent } from './components/card-collaborator/card-collaborator.component';
-import { AboutUsComponent } from './components/about-us/about-us.component';
-import { CardUserComponent } from './components/card-user/card-user.component';
-import { AvaliacoesComponent } from './components/avaliacoes/avaliacoes.component';
-import { TagComponent } from './components/tag/tag.component';
-import { CommunityComponent } from './components/community/community.component';
-import { ForumComponent } from './components/forum/forum.component';
-import { MentoriaComponent } from './components/mentoria/mentoria.component';
-import { SocialMidiaComponent } from './components/social-midia/social-midia.component';
-import { FooterComponent } from './components/footer/footer.component';
-import { SlideAulasComponent } from './components/slide-aulas/slide-aulas.component'
+import { HeaderComponent } from './components/ladingPage/header/header.component';
+import { ButtonComponent } from './components/ladingPage/button/button.component';
+import { MainPageComponent } from './components/ladingPage/main-page/main-page.component';
+import { EscolaColetivaComponent } from './components/ladingPage/escola-coletiva/escola-coletiva.component';
+import { CursosComponent } from './components/ladingPage/cursos/cursos.component';
+import { AulasComponent } from './components/ladingPage/aulas/aulas.component';
+import { CardCollaboratorComponent } from './components/ladingPage/card-collaborator/card-collaborator.component';
+import { AboutUsComponent } from './components/ladingPage/about-us/about-us.component';
+import { CardUserComponent } from './components/ladingPage/card-user/card-user.component';
+import { AvaliacoesComponent } from './components/ladingPage/avaliacoes/avaliacoes.component';
+import { TagComponent } from './components/ladingPage/tag/tag.component';
+import { CommunityComponent } from './components/ladingPage/community/community.component';
+import { ForumComponent } from './components/ladingPage/forum/forum.component';
+import { MentoriaComponent } from './components/ladingPage/mentoria/mentoria.component';
+import { SocialMidiaComponent } from './components/ladingPage/social-midia/social-midia.component';
+import { FooterComponent } from './components/ladingPage/footer/footer.component';
+import { SlideAulasComponent } from './components/slide-aulas/slide-aulas.component';
+import { CarrosselPrincipalComponent } from './components/ladingPage/carrossel-principal/carrossel-principal.component';
+import { CursoComponent } from './components/pagCursos/curso/curso.component';
+import { HomeComponent } from './components/ladingPage/home/home.component'
 
 @NgModule({
   declarations: [
@@ -43,9 +46,15 @@ import { SlideAulasComponent } from './components/slide-aulas/slide-aulas.compon
     MentoriaComponent,
     SocialMidiaComponent,
     FooterComponent,
-    
+    CursoComponent,
+    HomeComponent,
   ],
-  imports: [BrowserModule, BrowserAnimationsModule, AppRoutingModule, HttpClientModule, SlickCarouselModule, SlideAulasComponent],
+  imports: [
+            BrowserModule, BrowserAnimationsModule,
+            AppRoutingModule, HttpClientModule,
+            SlickCarouselModule, SlideAulasComponent,
+            CarrosselPrincipalComponent
+          ],
   providers: [],
   bootstrap: [AppComponent],
 })

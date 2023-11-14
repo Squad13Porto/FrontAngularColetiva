@@ -1,4 +1,4 @@
-/* .container {
+.container {
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -9,6 +9,4 @@
         gap: 2rem;
         overflow-x: hidden;
     }
-} */
-
-/* se quebrar o layout tenta descomentar isso  */
+}
