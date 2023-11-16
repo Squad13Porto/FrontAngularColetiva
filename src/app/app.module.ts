@@ -31,6 +31,7 @@ import { PromessaComponent } from './components/pagCursos/promessa/promessa.comp
 import { BeneficiosComponent } from './components/pagCursos/beneficios/beneficios.component';
 import { PertencimentoComponent } from './components/pagCursos/pertencimento/pertencimento.component';
 import { SolucaoComponent } from './components/pagCursos/solucao/solucao.component';
+import { AprenderAquiComponent } from './components/pagCursos/aprender-aqui/aprender-aqui.component';
 
 @NgModule({
   declarations: [
@@ -58,6 +59,7 @@ import { SolucaoComponent } from './components/pagCursos/solucao/solucao.compone
     BeneficiosComponent,
     PertencimentoComponent,
     SolucaoComponent,
+    AprenderAquiComponent,
   ],
   imports: [
             BrowserModule, BrowserAnimationsModule,
