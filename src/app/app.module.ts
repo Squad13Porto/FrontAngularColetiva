@@ -30,6 +30,7 @@ import { AvaliacaoCursosComponent } from './components/pagCursos/avaliacao-curso
 import { PromessaComponent } from './components/pagCursos/promessa/promessa.component';
 import { BeneficiosComponent } from './components/pagCursos/beneficios/beneficios.component';
 import { PertencimentoComponent } from './components/pagCursos/pertencimento/pertencimento.component';
+import { SolucaoComponent } from './components/pagCursos/solucao/solucao.component';
 
 @NgModule({
   declarations: [
@@ -56,6 +57,7 @@ import { PertencimentoComponent } from './components/pagCursos/pertencimento/per
     PromessaComponent,
     BeneficiosComponent,
     PertencimentoComponent,
+    SolucaoComponent,
   ],
   imports: [
             BrowserModule, BrowserAnimationsModule,
