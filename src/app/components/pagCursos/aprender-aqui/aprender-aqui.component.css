@@ -1,5 +1,6 @@
 .section-aprenderaqui {
-  background-color: #bee2ed;
+    /* background-color: #bee2ed; */
+    background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,7 +52,7 @@ ul {
 .aprenderaqui-content h1 {
   align-self: flex-end;
   font-size: 5vh;
-  color: white;
+  color: black;
   margin-bottom: 2vh;
 }
 
