@@ -1,0 +1,54 @@
+.section-pertencimento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw; /* esta quebrando o design para direita no mobile  */
+    background-color: #303030;
+    margin: 1rem auto 0;
+}
+
+.pertencimento-content {
+    display: flex;
+    padding: 4rem;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    gap: 3rem;
+}
+
+.text {
+    width: 50%;
+    color: #FFF;
+}
+
+.text p {
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px black;
+}
+
+.pertencimento-content img {
+    width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+
+.pertencimento-content {
+    flex-direction: column;
+}
+
+.text {
+    width: 150%;
+}
+
+.text p {
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+
+.pertencimento-content img {
+    width: 80vw;
+}
+
+}

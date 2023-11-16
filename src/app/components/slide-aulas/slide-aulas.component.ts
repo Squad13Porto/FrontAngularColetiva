@@ -19,6 +19,13 @@ export class SlideAulasComponent{
 
   constructor() { }
   
+  // imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive],
+  
+  
+  // preciso receber de uma propriedade com o ID do curso especifico, para colocar no <a>
+  // dentro do html desse slide, e assim referencialo
+  // <a routerLink="/first-component" routerLinkActive="active" ariaCurrentWhenActive="page">First Component</a>
+  
 
   slides = [
     {src: '../../../assets/images/img-aula-aberta.png'},

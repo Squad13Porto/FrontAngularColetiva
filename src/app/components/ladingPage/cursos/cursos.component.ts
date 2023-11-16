@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class CursosComponent {
 
+  // HttpRequest para api do firebase
+
 }
