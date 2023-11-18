@@ -35,6 +35,8 @@ import { AprenderAquiComponent } from './components/pagCursos/aprender-aqui/apre
 import { CertificacoesComponent } from './components/pagCursos/certificacoes/certificacoes.component';
 import { GradeComponent } from './components/pagCursos/grade/grade.component';
 import { ModuloComponent } from './components/pagCursos/modulo/modulo.component';
+import { ProfessoresComponent } from './components/pagCursos/professores/professores.component';
+import { CardProfessorComponent } from './components/pagCursos/card-professor/card-professor.component';
 
 @NgModule({
   declarations: [
@@ -66,6 +68,8 @@ import { ModuloComponent } from './components/pagCursos/modulo/modulo.component'
     CertificacoesComponent,
     GradeComponent,
     ModuloComponent,
+    ProfessoresComponent,
+    CardProfessorComponent,
   ],
   imports: [
             BrowserModule, BrowserAnimationsModule,
