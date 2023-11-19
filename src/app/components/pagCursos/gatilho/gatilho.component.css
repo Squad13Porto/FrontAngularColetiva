@@ -1,0 +1,166 @@
+.section-gatilho {
+    background-color: #FFC5EB;
+    /* background-color: var(--red); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+  }
+
+  .gatilho-content {
+    max-width:80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 20px;
+    /* Adjust the space between the columns */
+  }
+
+  /* .text-gatilho {} */
+
+  .text-gatilho h1 {
+    /* color: #2B2B2B; */
+    color: #FFF;
+    font-size: 3rem;
+  }
+
+  .text-gatilho p {
+    /* color: #2B2B2B; */
+    color: #FFF;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 500;
+  }
+
+  .text-gatilho ul {
+    list-style: none;
+    padding: 0;
+    background: #FFFFFF;
+
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .text-gatilho ul li {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    align-items: center;
+
+  }
+
+  .text-gatilho li img {
+    max-width: 100%;
+    padding-right: 3%;
+    width: 8%;
+  }
+
+
+  .text-gatilho button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 20px;
+    text-wrap: wrap;
+    padding: 12.5px 25px;
+    width: 50%;
+  }
+
+  .text-gatilho button:hover {
+    background-color: #333333;
+  }
+
+  .card-imagem {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-imagem img {
+    margin-top: 50px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  @keyframes rocket-movement {
+    0% {
+      transform: translateY(0);
+    }
+
+    100% {
+      transform: translateY(-100px);
+    }
+
+    /* Adjust the value to control the height of the movement */
+  }
+
+  .rocket-animate {
+    animation: rocket-movement 1s infinite alternate ease-in-out;
+  }
+
+
+  @media screen and (max-width: 834px) {
+    .gatilho-content {
+      grid-template-columns: 1fr;
+    }
+
+    .text-gatilho {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .text-gatilho ul {
+      width: 100%;
+    }
+
+    .text-gatilho h1 {
+      text-align: center;
+      font-size: 2.5rem;
+    }
+
+    .text-gatilho p {
+      text-align: center;
+
+      font-size: 1.2rem;
+    }
+
+    .text-gatilho button {
+      width: 60%;
+      font-size: 1.2rem;
+    }
+
+    .card-imagem {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 70px;
+    }
+
+    .card-imagem img {
+      width: 50%;
+    }
+
+    @keyframes rocket-movement {
+      0% {
+        transform: translateY(0);
+      }
+
+      100% {
+        transform: translateY(-25px);
+      }
+
+      /* Adjust the value to control the height of the movement */
+    }
+
+  }

@@ -37,6 +37,9 @@ import { GradeComponent } from './components/pagCursos/grade/grade.component';
 import { ModuloComponent } from './components/pagCursos/modulo/modulo.component';
 import { ProfessoresComponent } from './components/pagCursos/professores/professores.component';
 import { CardProfessorComponent } from './components/pagCursos/card-professor/card-professor.component';
+import { CompraComponent } from './components/pagCursos/compra/compra.component';
+import { GarantiaComponent } from './components/pagCursos/garantia/garantia.component';
+import { GatilhoComponent } from './components/pagCursos/gatilho/gatilho.component';
 
 @NgModule({
   declarations: [
@@ -70,6 +73,9 @@ import { CardProfessorComponent } from './components/pagCursos/card-professor/ca
     ModuloComponent,
     ProfessoresComponent,
     CardProfessorComponent,
+    CompraComponent,
+    GarantiaComponent,
+    GatilhoComponent,
   ],
   imports: [
             BrowserModule, BrowserAnimationsModule,

@@ -1,6 +1,7 @@
 .section-certificacoes {
-  background-color: #ed4d87;
+  /* background-color: #ed4d87; */
   /* background-color: white; */
+  background-color: var(--red);
 
 }
 

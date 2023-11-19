@@ -1,0 +1,68 @@
+.section-compra {
+  /* background-color: #bce1f6; */
+  /* background-color: var(--tangerine); */
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+}
+
+.compra-content {
+  max-width: 80%;
+  /* Adjust the width as needed */
+  text-align: center;
+  padding: 20px;
+  background: #ececec;
+  border-radius: 8px;
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.253);
+}
+
+.card-preco {
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+.card-preco h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.card-preco p {
+  font-size: 1.25rem;
+  color: #666;
+}
+
+.card-preco .preco {
+  font-size: 3rem;
+  color: #333;
+  margin: 1rem 0;
+}
+
+.card-preco .preco-detail {
+  font-size: 1rem;
+  color: #666;
+}
+
+.card-preco button {
+  padding: 1rem 2rem;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.card-preco button:hover {
+  background-color: #45a049;
+}
+
+@media screen and (max-width: 768px) {
+  .section-compra {
+    margin: 2rem 0;
+  }
+}
