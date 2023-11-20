@@ -46,3 +46,14 @@ nav a {
     height: auto;
   }
 }
+
+@media screen and (min-width: 1600px){
+  header {
+    width: 100vw;
+  }
+
+  .logo {
+    width: 22%;
+    height: auto;
+  }
+}
