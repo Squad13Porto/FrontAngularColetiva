@@ -40,6 +40,8 @@ import { CardProfessorComponent } from './components/pagCursos/card-professor/ca
 import { CompraComponent } from './components/pagCursos/compra/compra.component';
 import { GarantiaComponent } from './components/pagCursos/garantia/garantia.component';
 import { GatilhoComponent } from './components/pagCursos/gatilho/gatilho.component';
+import { CallComponent } from './components/pagCursos/call/call.component';
+import { AboutUsCursosComponent } from './components/pagCursos/about-us-cursos/about-us-cursos.component';
 
 @NgModule({
   declarations: [
@@ -76,6 +78,8 @@ import { GatilhoComponent } from './components/pagCursos/gatilho/gatilho.compone
     CompraComponent,
     GarantiaComponent,
     GatilhoComponent,
+    CallComponent,
+    AboutUsCursosComponent,
   ],
   imports: [
             BrowserModule, BrowserAnimationsModule,

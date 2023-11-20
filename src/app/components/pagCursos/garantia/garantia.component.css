@@ -1,0 +1,33 @@
+.section-garantia {
+    background-color: #474747;
+    padding: 1%;
+  }
+
+  .garantia-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5%;
+    color: white;
+    font-size: 1.7vh;
+
+  }
+
+  .garantia-content img {
+    max-width: 100%;
+
+  }
+
+  @media (max-width: 768px) {
+    .garantia-content {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .garantia-content img {
+      margin-bottom: 2%;
+      margin-top: 2%;
+      width: 30%;
+    }
+  }
