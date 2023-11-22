@@ -17,6 +17,13 @@ export class AboutUsComponent {
       .subscribe((response: any) => {
         this.cards = response.cardsEquipe;
       });
+
+    
+// nova url 
+    // this.http.get("https://us-central1-squad13-7ae1e.cloudfunctions.net/getFirestoreDocs")
+    //   .subscribe((response: any) => {
+    //     this.cards = response.cardsEquipe;
+    //   });
   }
 
   
