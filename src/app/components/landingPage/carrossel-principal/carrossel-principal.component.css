@@ -1,4 +1,7 @@
 .container {
+    /* background-color: var(--red); possibilidade para arrumar a moldura (preciso arrumar a margin-top) 
+        para arrumar a margin-top posso colocar o background-color da main-page como red    
+    */
     display: flex;
     width: 100vw;
 

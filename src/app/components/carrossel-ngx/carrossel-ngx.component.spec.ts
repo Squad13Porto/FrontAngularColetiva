@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SlideAulasComponent } from './slide-aulas.component';
+import { CarrosselNgxComponent } from './carrossel-ngx.component';
 
 describe('SlideAulasComponent', () => {
-  let component: SlideAulasComponent;
-  let fixture: ComponentFixture<SlideAulasComponent>;
+  let component: CarrosselNgxComponent;
+  let fixture: ComponentFixture<CarrosselNgxComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [SlideAulasComponent]
+      declarations: [CarrosselNgxComponent]
     });
-    fixture = TestBed.createComponent(SlideAulasComponent);
+    fixture = TestBed.createComponent(CarrosselNgxComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

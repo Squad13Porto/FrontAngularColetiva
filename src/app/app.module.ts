@@ -22,7 +22,7 @@ import { ForumComponent } from './components/landingPage/forum/forum.component';
 import { MentoriaComponent } from './components/landingPage/mentoria/mentoria.component';
 import { SocialMidiaComponent } from './components/landingPage/social-midia/social-midia.component';
 import { FooterComponent } from './components/landingPage/footer/footer.component';
-import { SlideAulasComponent } from './components/slide-aulas/slide-aulas.component';
+import { CarrosselNgxComponent } from './components/carrossel-ngx/carrossel-ngx.component';
 import { CarrosselPrincipalComponent } from './components/landingPage/carrossel-principal/carrossel-principal.component';
 import { CursoComponent } from './components/pagCursos/curso/curso.component';
 import { HomeComponent } from './components/landingPage/home/home.component';
@@ -87,7 +87,7 @@ import { AboutUsCursosComponent } from './components/pagCursos/about-us-cursos/a
     AppRoutingModule,
     HttpClientModule,
     SlickCarouselModule,
-    SlideAulasComponent,
+    CarrosselNgxComponent,
     CarrosselPrincipalComponent,
   ],
   providers: [],

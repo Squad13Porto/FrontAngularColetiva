@@ -8,13 +8,13 @@ import { SlickCarouselModule, SlickCarouselComponent } from 'ngx-slick-carousel'
   templateUrl: './carrossel-principal.component.html',
   styleUrls: ['./carrossel-principal.component.css'],
   standalone: true,
-  imports: [CommonModule, SlickCarouselModule]
+  imports: [CommonModule, SlickCarouselModule, ]
 })
 export class CarrosselPrincipalComponent {
   slides = [
     {src: '../../../assets/images/img-aula-aberta.png'},
     {src: '../../../assets/images/img-aula-pilula.png'},
-    {src: '../../../assets/images/carrossel.png'}
+    {src: '../../../assets/images/reuniao.jpeg'}
   ]
 
   slickConfig = {

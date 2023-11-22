@@ -5,13 +5,13 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 
 @Component({
-  selector: 'app-slide-aulas',
-  templateUrl: './slide-aulas.component.html',
+  selector: 'app-carrossel-ngx',
+  templateUrl: './carrossel-ngx.component.html',
   standalone: true,
   imports: [CommonModule, SlickCarouselModule],
-  styleUrls: ['./slide-aulas.component.css'],
+  styleUrls: ['./carrossel-ngx.component.css'],
 })
-export class SlideAulasComponent{
+export class CarrosselNgxComponent{
   // @Input('srcs') srcs!: {};
   @Input('arrows') arrows!: boolean;
   
@@ -28,9 +28,9 @@ export class SlideAulasComponent{
   
 
   slides = [
+    {src: '../../../assets/images/reuniao.jpeg'},
     {src: '../../../assets/images/img-aula-aberta.png'},
     {src: '../../../assets/images/img-aula-pilula.png'},
-    {src: '../../../assets/images/carrossel.png'}
   ]
   
     slickConfig = {
