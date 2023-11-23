@@ -42,6 +42,8 @@ import { GarantiaComponent } from './components/pagCursos/garantia/garantia.comp
 import { GatilhoComponent } from './components/pagCursos/gatilho/gatilho.component';
 import { CallComponent } from './components/pagCursos/call/call.component';
 import { AboutUsCursosComponent } from './components/pagCursos/about-us-cursos/about-us-cursos.component';
+import { AulasAbertasComponent } from './components/landingPage/aulas-abertas/aulas-abertas.component';
+import { AulasPilulasComponent } from './components/landingPage/aulas-pilulas/aulas-pilulas.component';
 
 @NgModule({
   declarations: [
@@ -80,6 +82,8 @@ import { AboutUsCursosComponent } from './components/pagCursos/about-us-cursos/a
     GatilhoComponent,
     CallComponent,
     AboutUsCursosComponent,
+    AulasAbertasComponent,
+    AulasPilulasComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
@@ -14,12 +14,13 @@ import $ from 'jquery';
 })
 export class CarrosselNgxComponent {
   //src imgs slide
-  @Input() slidesAulasAbertas: Slide[] = [];
-  @Input() slidesAulasPilulas: Slide[] = [];
+  // @Input() slidesAulasAbertas: Slide[] = [];
+  // @Input() slidesAulasPilulas: Slide[] = [];
+
+  @Input() slidesAulas!: Slide[];
 
   constructor(private http: HttpClient) {
-    this.slidesAberta = [];
-    this.slidesPilula = [];
+    this.slides = [];
   }
 
   // imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive],
@@ -27,8 +28,7 @@ export class CarrosselNgxComponent {
   // dentro do html desse slide, e assim referencialo
   // <a routerLink="/first-component" routerLinkActive="active" ariaCurrentWhenActive="page">First Component</a>
 
-  slidesAberta: Slide[];
-  slidesPilula: Slide[];
+  slides: Slide[];
 
   slickConfig = {
     slidesToShow: 1,
@@ -39,20 +39,10 @@ export class CarrosselNgxComponent {
     autoplaySpeed: 2000,
   };
 
-  // slidesAberta = [
-  //   {src: ''}
-  // ]
-
-  // slidesPilula = [
-  //   {src: ''}
-  // ]
-
   ngOnInit(): void {
-    this.slidesAberta = this.slidesAulasAbertas.map((item: any) => ({
+    this.slides = this.slidesAulas.map((item: any) => ({
       src: item.src,
     }));
-    this.slidesPilula = this.slidesAulasPilulas.map((item: any) => ({
-      src: item.src,
-    }));
+
   }
 }

@@ -10,81 +10,8 @@
     padding: 1rem;
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    gap: 20px;
-
-    width: 80%;
-    padding: 20px;
-
-    margin: 2rem 0;
-}
-
-.container .text h3 {
-    color: var(--red);
-    font-size: 3rem;
-}
-
-.container .text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-
-    gap: 1.5rem;
-}
-
-.container .text span {
-    color: var(--red);
-    font-weight: 700;
-}
-
-.container .text p {
-  color: black;
-  font-size: 1.5rem;
-}
-
-.container .text a {
-    color: var(--red);
-    font-size: 20px;
-}
-
-.carrossel {
-  max-width: 35vw;
-}
-
-@media screen and (max-width: 768px) {
-  .aulas {
-    padding-left: 0;
-  }
-  
-  .container {
-    display: flex;
-    flex-direction: column;
-
-    gap: 1.2rem;
-
-    width: 80%;
-    padding: 1.2rem;
-
-    margin: 2rem 0;
-  }
-
-  .img-aula {
-    width: 20rem;
-    height: auto;
-  }
-
-  .container .text p {
-    color: black;
-    font-size: 24px;
-  }
-
-  .carrossel {
-    max-width: 90vw;
-  }
-
+.content {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
 }
