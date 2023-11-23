@@ -23,26 +23,11 @@ export class AulasComponent implements OnInit {
   slidesAberta: Slide[];
   slidesPilula: Slide[];
   
-  ngOnInit(): void {
-    // this.http.get("https://us-central1-squad13-7ae1e.cloudfunctions.net/getFirestoreDocs")
-    // .subscribe((response: any) => {
-    //   this.aulasAbertas = response.aulasAbertasUrls; 
-    //   this.aulasPilulas = response.aulasPilulasUrls;
-  
-      // console.log(response.aulasAbertasUrls)
-      // this.slidesAberta = this.aulasAbertas.map((item: any) => ({
-      //   src: item
-      // }));
-  
-      // this.slidesPilula = this.aulasPilulas.map((item: any) => ({
-      //   src: item
-      // }));
-    // });
-  
+  ngOnInit(): void {  
     this.getData()
-
-
-
+    
+    
+    
   }
 
   async getData() {
@@ -50,7 +35,7 @@ export class AulasComponent implements OnInit {
           .subscribe( async (response: any) => {
       this.aulasAbertas = await response.aulasAbertasUrls; 
       this.aulasPilulas = await response.aulasPilulasUrls;
-      console.log(response.aulasAbertasUrls)
+      // console.log(response.aulasAbertasUrls) //retorna certinho a lista
   
       this.slidesAberta = this.aulasAbertas.map((item: any) => ({
         src: item
@@ -59,9 +44,11 @@ export class AulasComponent implements OnInit {
       this.slidesPilula = this.aulasPilulas.map((item: any) => ({
         src: item
       }));
+      
+      console.log(this.slidesAberta) //demora pra retornar por ser async
+      // console.log(this.aulasAbertas)
     });
   
-    // console.log(this.aulasAbertas)
   }
   }
 

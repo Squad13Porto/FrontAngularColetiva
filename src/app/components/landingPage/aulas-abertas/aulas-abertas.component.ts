@@ -14,6 +14,7 @@ export class AulasAbertasComponent {
     this.pathAberta = [];
   }
 
+
   pathAberta: Slide[]
 
   ngOnInit(): void {

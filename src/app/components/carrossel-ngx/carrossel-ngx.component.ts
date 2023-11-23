@@ -19,6 +19,8 @@ export class CarrosselNgxComponent {
 
   @Input() slidesAulas!: Slide[];
 
+
+
   constructor(private http: HttpClient) {
     this.slides = [];
   }
