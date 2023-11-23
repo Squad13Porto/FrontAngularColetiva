@@ -22,19 +22,9 @@ export class AulasAbertasComponent {
       src: item.src,
     }));
 
-    this.getAulasData()
 
   }
 
-  async getAulasData() {
-    try {
-      console.log(this.pathAberta)
-      console.log(this.pathAulasAbertas)
 
-      // console.log(this.slidesAberta);
-    } catch (error) {
-      console.error('Error fetching data:', error);
-    }
-  }
   }
 
