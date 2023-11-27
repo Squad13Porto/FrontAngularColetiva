@@ -1,11 +1,12 @@
 <main>
     <div class="container">
-        <img src="../../../../assets/images/reuniao.jpeg" alt="" class="img-main">
+        <video class="img-main" autoplay loop muted>
+            <source src="../../../../assets/videos/mainvideo.mp4" type="video/mp4">
+        </video>
         <h1 class="text-block">
             <span id="coletiva">Coletiva:</span> um hub para<br>
             melhorar sua carreira na<br>
-            <span id="arquitetura">Arquitetura.</span>
+            <span [class]="fadeClass" id="arquitetura">{{ currentText }}</span>.
         </h1>
     </div>
 </main>
-

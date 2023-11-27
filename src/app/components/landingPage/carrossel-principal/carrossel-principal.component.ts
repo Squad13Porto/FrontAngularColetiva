@@ -13,8 +13,8 @@ import { SlickCarouselModule, SlickCarouselComponent } from 'ngx-slick-carousel'
 export class CarrosselPrincipalComponent {
   slides = [
     {src: '../../../assets/images/Component 4.png'},
-    {src: '../../../assets/images/Component 4.png'},
-    {src: '../../../assets/images/Component 4.png'}
+    {src: '../../../assets/images/Group 3.png'},
+    {src: '../../../assets/images/Group 4.png'}
   ]
 
   slickConfig = {

@@ -12,11 +12,15 @@ header {
 header.scrolled {
   background-color: #FFFFFF;
 }
+.img-brand{
+  
+}
 
 .logo {
   padding-left: 2.5rem;
-  width: 25%;
+  max-width: 25%;
   height: auto;
+  
 }
 
 nav ul {
