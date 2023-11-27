@@ -46,13 +46,13 @@ import { AulasAbertasComponent } from './components/landingPage/aulas-abertas/au
 import { AulasPilulasComponent } from './components/landingPage/aulas-pilulas/aulas-pilulas.component';
 import { SegmentacaoComponent } from './components/pagCursos/segmentacao/segmentacao.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ButtonComponent,
     SegmentacaoComponent,
+    MainPageComponent,
     EscolaColetivaComponent,
     CursosComponent,
     AulasComponent,
