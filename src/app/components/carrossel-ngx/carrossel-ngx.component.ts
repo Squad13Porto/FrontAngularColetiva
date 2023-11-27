@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { Slide } from './slide';
-import $ from 'jquery';
 
 @Component({
   selector: 'app-carrossel-ngx',
@@ -19,10 +18,9 @@ export class CarrosselNgxComponent {
 
   @Input() slidesAulas!: Slide[];
 
-
-
   constructor(private http: HttpClient) {
     this.slides = [];
+    this.slidesAulas = [];
   }
 
   // imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive],
@@ -45,6 +43,5 @@ export class CarrosselNgxComponent {
     this.slides = this.slidesAulas.map((item: any) => ({
       src: item.src,
     }));
-
   }
 }
