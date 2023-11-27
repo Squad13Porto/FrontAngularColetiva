@@ -44,13 +44,15 @@ import { CallComponent } from './components/pagCursos/call/call.component';
 import { AboutUsCursosComponent } from './components/pagCursos/about-us-cursos/about-us-cursos.component';
 import { AulasAbertasComponent } from './components/landingPage/aulas-abertas/aulas-abertas.component';
 import { AulasPilulasComponent } from './components/landingPage/aulas-pilulas/aulas-pilulas.component';
+import { SegmentacaoComponent } from './components/pagCursos/segmentacao/segmentacao.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ButtonComponent,
-    MainPageComponent,
+    SegmentacaoComponent,
     EscolaColetivaComponent,
     CursosComponent,
     AulasComponent,
