@@ -1,4 +1,8 @@
 
+h2 {
+    font-size: 3rem;
+}
+
 .bg {
     background: url(../../../../assets/images/forum/Vector-white.svg) no-repeat;
     background-color: var(--red);
