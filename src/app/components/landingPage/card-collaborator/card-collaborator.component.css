@@ -25,6 +25,10 @@
     margin: 1rem;
 }
 
+.link-ler-mais {
+    color: #CD001A
+}
+
 @media screen and (max-width: 768px) {
     .card {
         flex-direction: column;

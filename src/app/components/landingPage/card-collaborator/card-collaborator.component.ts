@@ -9,4 +9,6 @@ export class CardCollaboratorComponent {
   @Input('collaboratorName') collaboratorName!: string;  
   @Input('description') description!: string;
   @Input('src') src!: string;
+
+  readMore = false;
 }
