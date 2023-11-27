@@ -9,10 +9,8 @@
     </h4>
     <p>
       {{(readMore) ? description : description | slice:0:80}}
-      <span *ngIf="!readMore && description.length > 80">...</span>
-      <a href="javascript:;" *ngIf="!readMore && description.length > 80" (click)="readMore=true" class="link-ler-mais">
-        [Ler mais]
-      </a>
+      <span *ngIf="!readMore && description.length > 80">... </span>
+      <a href="javascript:;" *ngIf="!readMore && description.length > 80" (click)="readMore=true" class="link-ler-mais">[Ler mais]</a>
     </p>
   </div>
 </div>
