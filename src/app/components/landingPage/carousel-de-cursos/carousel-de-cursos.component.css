@@ -1,52 +1,3 @@
-.cursos {
-    background-color: #303030;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-family: 'DM Sans';
-}
-
-.cursos>h3.titulo-cursos {
-    color: var(--red);
-    padding: 75px;
-    font-size: 3rem;
-}
-
-.cursos>p.texto-cursos {
-    width: 50%;
-    font-size: 1.5rem;
-    padding-bottom: 75px;
-    color: #FFFFFF;
-}
-
-.cursos>p.texto-cursos>span {
-    font-weight: 700;
-    color: var(--red);
-}
-
-.cursos>img.imagem-carrossel {
-    padding-bottom: 75px;
-    width: 60%;
-    height: auto;
-}
-
-.carrossel {
-    max-width: 50vw;
-}
-
-@media screen and (max-width: 768px) {
-    .cursos>p.texto-cursos {
-        width: 80%;
-        text-align: left;
-    }
-
-    .carrossel {
-        max-width: 80vw;
-    }
-}
-
 #carousel {
     position: relative;
     height: 400px;
@@ -96,7 +47,7 @@
 }
 
 #carousel img:hover {
-    cursor: pointer;
+    cursor:pointer;
 }
 
 #carousel div.prev img {

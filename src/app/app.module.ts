@@ -45,6 +45,7 @@ import { AboutUsCursosComponent } from './components/pagCursos/about-us-cursos/a
 import { AulasAbertasComponent } from './components/landingPage/aulas-abertas/aulas-abertas.component';
 import { AulasPilulasComponent } from './components/landingPage/aulas-pilulas/aulas-pilulas.component';
 import { SegmentacaoComponent } from './components/pagCursos/segmentacao/segmentacao.component';
+import { CarouselDeCursosComponent } from './components/landingPage/carousel-de-cursos/carousel-de-cursos.component';
 
 @NgModule({
   declarations: [
@@ -86,6 +87,7 @@ import { SegmentacaoComponent } from './components/pagCursos/segmentacao/segment
     AboutUsCursosComponent,
     AulasAbertasComponent,
     AulasPilulasComponent,
+    CarouselDeCursosComponent,
   ],
   imports: [
     BrowserModule,

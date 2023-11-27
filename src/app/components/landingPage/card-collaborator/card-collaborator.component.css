@@ -12,6 +12,10 @@
     background: #2B2B2B;
     color: #FFF;
 }
+.card img{
+    max-width: 144px;
+    max-height: 189px;
+}
 
 .card .text {
     display: flex;
