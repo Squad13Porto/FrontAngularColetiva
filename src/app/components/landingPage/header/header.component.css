@@ -5,6 +5,7 @@ header {
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  max-height: 120px;
   z-index: 1000;
 }
 

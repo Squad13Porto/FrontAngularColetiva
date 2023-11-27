@@ -12,7 +12,7 @@
 /* carousel.component.css */
 .carousel-container {
     margin: 0 auto;
-    max-width: 70vw;
+    max-width: 60vw;
     border-radius: 20px;
 }
   
@@ -29,13 +29,19 @@
     margin: 0 auto;
     width: 100%;
     height: 100%;
-
     border-radius: 20px;
-
 }
+
 
 @media screen and (max-width: 768px) {
     .carousel-container {
         max-width: 90vw;
       }
+}
+
+@media screen and (min-width: 1980px){
+    .carousel-container {
+        max-width: 50vw;
+      }
+    
 }
