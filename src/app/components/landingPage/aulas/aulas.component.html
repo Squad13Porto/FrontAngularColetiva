@@ -1,9 +1,11 @@
 <section class="aulas">
   <div class="content">
-    <app-aulas-abertas [pathAulasAbertas]="slidesAberta"></app-aulas-abertas>
+    <!-- No template de AulasComponent -->
+    <app-aulas-pilulas *ngIf="slidesPilula.length > 0" [pathAulasPilulas]="slidesPilula"></app-aulas-pilulas>
+    <app-aulas-abertas *ngIf="slidesAberta.length > 0" [pathAulasAbertas]="slidesAberta"></app-aulas-abertas>
 
     <!-- <app-aulas-pilulas [pathAulasPilulas]="slidesPilula"></app-aulas-pilulas> -->
   </div>
 
- 
-</section> 
+
+</section>

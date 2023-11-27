@@ -16,9 +16,10 @@ export class AulasPilulasComponent {
   pathPilula: Slide[]
 
   ngOnInit(): void {
+    console.log('ngOnInit - AulasPilulasComponent', this.pathAulasPilulas);
     this.pathPilula = this.pathAulasPilulas.map((item: any) => ({
       src: item.src,
     }));
-
+    console.log('pathPilula após map:', this.pathPilula);
   }
 }

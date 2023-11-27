@@ -12,6 +12,7 @@ main {
   /* Define a altura para 100% */
   opacity: 0.65;
   object-fit: cover;
+  overflow: hidden;
   /* Adiciona object-fit para cobrir o espaço sem perder a proporção */
   z-index: 1;
 }
@@ -71,3 +72,4 @@ main {
     letter-spacing: normal;
   }
 }
+

@@ -7,7 +7,7 @@ import { Slide } from '../../carrossel-ngx/slide';
   styleUrls: ['./aulas-abertas.component.css'],
 })
 export class AulasAbertasComponent {
-  
+
   @Input() pathAulasAbertas: Slide[] = [];
 
   constructor() {
@@ -18,13 +18,13 @@ export class AulasAbertasComponent {
   pathAberta: Slide[]
 
   ngOnInit(): void {
+    console.log('ngOnInit - AulasAbertasComponent', this.pathAulasAbertas);
     this.pathAberta = this.pathAulasAbertas.map((item: any) => ({
       src: item.src,
     }));
-
-
+    console.log('pathAberta após map:', this.pathAberta);
   }
 
 
-  }
+}
 
