@@ -27,10 +27,8 @@ export class CursosComponent {
       .subscribe((response: any) => {
         this.cursos = response.cursos;
 
-        console.log(this.cursos);
-
         this.slidesCursos = this.cursos.map((item: any) => ({
-          src: item,
+          src: item.carrosselImg,
         }));
       });
   }

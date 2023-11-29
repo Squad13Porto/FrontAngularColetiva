@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, SimpleChanges } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
@@ -13,7 +13,7 @@ import { Slide } from './slide';
 })
 export class CarrosselNgxComponent {
   @Input() slidesAulas!: Slide[];
-  @Input() slidesCursos: Slide[] = [];
+  @Input() slidesCursos!: Slide[];
 
   constructor(private http: HttpClient) {
     this.slides = [];
@@ -37,9 +37,15 @@ export class CarrosselNgxComponent {
     autoplaySpeed: 2000,
   };
 
-  ngOnInit(): void {
-    this.slides = this.slidesAulas.map((item: any) => ({
-      src: item.src,
-    }));
+  ngOnChanges(changes: SimpleChanges): void {
+    if (changes['slidesAulas']) {
+      this.slides = this.slidesAulas.map((item: any) => ({
+        src: item.src,
+      }));
+    } else if (changes['slidesCursos']) {
+      this.slides = this.slidesCursos.map((item: any) => ({
+        src: item.src,
+      }));
+    }
   }
 }
