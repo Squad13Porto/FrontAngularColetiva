@@ -8,8 +8,6 @@ import { ChangeDetectorRef } from '@angular/core';
   templateUrl: './aulas.component.html',
   styleUrls: ['./aulas.component.css'],
 })
-
-
 export class AulasComponent implements OnInit {
   constructor(private http: HttpClient, private cd: ChangeDetectorRef) {
     this.aulasAbertas = [];
@@ -31,20 +29,28 @@ export class AulasComponent implements OnInit {
   }
 
   async getData() {
-    console.log('getData - chamado');
-    this.http.get("https://us-central1-squad13-7ae1e.cloudfunctions.net/getFirestoreDocs")
-      .subscribe((response: any) => {
-        console.log('Resposta do GET:', response);
-        this.aulasAbertas = response.aulasAbertasUrls;
-        this.aulasPilulas = response.aulasPilulasUrls;
+    this.http
+      .get(
+        'https://us-central1-squad13-7ae1e.cloudfunctions.net/getFirestoreDocs'
+      )
+      .subscribe(
+        (response: any) => {
+          console.log('Resposta do GET:', response);
+          this.aulasAbertas = response.aulasAbertasUrls;
+          this.aulasPilulas = response.aulasPilulasUrls;
 
-        this.slidesAberta = this.aulasAbertas.map((item: any) => ({ src: item }));
-        this.slidesPilula = this.aulasPilulas.map((item: any) => ({ src: item }));
-        console.log('slidesPilula após map:', this.slidesPilula);
-      }, error => {
-        console.error('Erro na requisição GET:', error);
-        this.cd.detectChanges();
-      });
+          this.slidesAberta = this.aulasAbertas.map((item: any) => ({
+            src: item,
+          }));
+          this.slidesPilula = this.aulasPilulas.map((item: any) => ({
+            src: item,
+          }));
+          console.log('slidesPilula após map:', this.slidesPilula);
+        },
+        (error) => {
+          console.error('Erro na requisição GET:', error);
+          this.cd.detectChanges();
+        }
+      );
   }
 }
-
