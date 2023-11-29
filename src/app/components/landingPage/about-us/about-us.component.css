@@ -43,15 +43,21 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    gap: 20px; 
+    gap: 20px;
 
     flex-wrap: wrap;
 }
+
+@media screen and (min-width: 1800px) {
+  .about-us .cards {
+    max-width: 50vw;
+  }
+}
+
 
 @media screen and (max-width: 768px) {
     .about-us .text p {
         text-align: left;
     }
-    
+
 }
-  
