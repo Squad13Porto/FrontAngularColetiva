@@ -12,15 +12,13 @@ import { Slide } from './slide';
   styleUrls: ['./carrossel-ngx.component.css'],
 })
 export class CarrosselNgxComponent {
-  //src imgs slide
-  // @Input() slidesAulasAbertas: Slide[] = [];
-  // @Input() slidesAulasPilulas: Slide[] = [];
-
   @Input() slidesAulas!: Slide[];
+  @Input() slidesCursos: Slide[] = [];
 
   constructor(private http: HttpClient) {
     this.slides = [];
     this.slidesAulas = [];
+    this.slidesCursos = [];
   }
 
   // imports: [CommonModule, RouterOutlet, RouterLink, RouterLinkActive],
